@@ -18,7 +18,7 @@ public class StreamSample {
         
         //forEachを使った単純な出力
         System.out.println("■Stream forEachによる取得：");
-        places.stream().forEach(place -> System.out.println(place));
+        places.forEach(place -> System.out.println(place));
         
         
         //filterを使って特定の条件に一致する要素のみを抽出
